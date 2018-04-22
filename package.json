@@ -1,0 +1,15 @@
+{
+  "name": "p5-typescript-starter",
+  "version": "1.0.0",
+  "description": "Project to quickly get something working in [p5.js](https://p5js.org/) and [typescript](https://www.typescriptlang.org/)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"lite-server\" \" tsc --watch --outDir dist\""
+  },
+  "homepage": "https://github.com/Gaweph/p5-typescript-starter#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.8.1"
+  }
+}
